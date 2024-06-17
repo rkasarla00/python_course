@@ -32,6 +32,17 @@ def age_in_days(age):
 def simple_interest(p, r, t):
        return p * r * t
 
+def plan_finances(p, r, t, final):
+    step_1 = simple_interest(p,r,t)
+    if (final == step_1):
+        return True
+    elif (final > step_1):
+        return True
+    else:
+        return False
+
+
+
 print(dollarizer("testcase"))
 print(eurizer("testcase"))
 print(replacer("testcase", 't', '#'))
@@ -39,3 +50,4 @@ print(wonky_text("1est1ase"))
 print(f"25 degree F is {celsius_to_fahrenheit(25)} C")
 print(f"The total age in days for a 25 year old is {age_in_days(25)} days")
 print(f"Simple Interest: {simple_interest(100, .75, 5)} ")
+print(f"Plan Finances: {plan_finances(100, .75, 5, 500)}")
