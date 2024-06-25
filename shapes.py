@@ -40,10 +40,16 @@ def geometry(length, radius):
     else:
         print("They have the same perimiter and circumference")
 
-    if ()
+    if (area_circle > area_square):
+        print("The circle has a greater area")
+    elif (area_square > area_circle):
+        print("The square has a greater area")
+    else:
+        print("Both shapes have the same area")
 
 
-
+print(circle_details)
+print(geometry(5,3))
 #print(f"The circle_detaile one prints out both {circle_details(3)}")
 '''
 x = int(input("What is the length of the rectangle? "))
