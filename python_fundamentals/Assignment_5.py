@@ -78,4 +78,4 @@ del courses['history'][2]
 print(courses['history'])
 print(courses['chemistry'])
 courses['physics'] = ['S.M', 'V.K', 'I.P', 'L.B']
-print(courses['physics'])
+print(courses['physics'][0])
