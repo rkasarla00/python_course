@@ -23,7 +23,7 @@ while x <= 2:
         print(f"Congrats! You purchased {potions[user_potion][x]}")
         x += 1
     else:
-        print("You stopped shopping...")
+        print("Your choice has killed all of mankind...")
         break
 if x == 3:
     print("Congrats! You purchased all ingredients to make your potion!")
